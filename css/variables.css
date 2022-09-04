@@ -1,0 +1,41 @@
+:root {
+  /* BACKGROUND */
+  --Background: hsl(0, 0%, 100%);
+  --Footer: hsl(0, 0%, 96%);
+
+  /* BUTTONS */
+  --BTN-Color: rgb(255, 255, 255);
+  --IOS: hsl(171, 66%, 44%);
+  --IOS-Border: hsl(171, 66%, 44%);
+  --IOS-Hover: hsl(171, 66%, 50%);
+
+  --Mac: hsl(233, 100%, 69%);
+  --Mac-Hover: hsl(233, 100%, 75%);
+
+  --Heading: hsl(210, 10%, 33%);
+  --Text: hsl(201, 11%, 66%);
+  --Icon: hsl(210, 10%, 33%);
+
+  --Footer-Hover: hsl(171, 66%, 44%);
+}
+
+.dark-theme {
+  --Background: hsl(0, 0%, 11%);
+  --Footer: hsl(0, 0%, 9%);
+
+  /* BUTTONS */
+  --IOS: hsl(171, 45%, 45%);
+
+  --IOS-Shadow: 0px 1px 15px 1px hsl(171, 50%, 45%);
+  --IOS-Hover: hsl(171, 66%, 50%);
+
+  --Mac: hsl(233, 45%, 45%);
+  --Mac-Shadow: 0px 1px 15px 1px hsl(233, 20%, 45%);
+  --Mac-Hover: hsl(233, 100%, 75%);
+
+  --Heading: hsl(0, 0%, 88%);
+  --Text: hsla(201, 12%, 76%, 0.8);
+  --Icon: hsl(0, 0%, 88%);
+
+  --Footer-Hover: hsl(171, 66%, 44%);
+}
