@@ -392,10 +392,6 @@ footer {
   transition: var(--Transition);
 }
 
-.col > *:hover {
-  transition: 0.3s ease-in-out;
-  color: var(--Footer-Hover);
-}
 
 .social-media {
   display: flex;
@@ -411,6 +407,11 @@ footer {
 
 
 @media (hover: hover) {
+  .col > *:hover {
+  transition: 0.3s ease-in-out;
+  color: var(--Footer-Hover);
+}
+  
  .social-media > *:hover {
   color: var(--Footer-Hover);
   transform: scale(1.2);
