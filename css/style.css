@@ -409,10 +409,13 @@ footer {
   transition: var(--Transition);
 }
 
-.social-media > *:hover {
+
+@media (hover: hover) {
+ .social-media > *:hover {
   color: var(--Footer-Hover);
   transform: scale(1.2);
   transition: var(--Transition);
+} 
 }
 
 /* ************************** */
